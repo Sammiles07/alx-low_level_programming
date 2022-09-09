@@ -3,6 +3,7 @@
  * main - prints the size of various types on the computer
  * Return: returns the value 0 if exited properly, non-zero otherwise
  */
+
 int main(void)
 {
 	int a;
