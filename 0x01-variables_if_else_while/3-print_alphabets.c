@@ -13,7 +13,7 @@ int main(void)
 
 	for (heart = 'a'; heart <= 'z'; heart++)
 		putchar(heart);
-	for (heart = 'A'; hear <= 'Z'; heart++)
+	for (heart = 'A'; heart <= 'Z'; heart++)
 		putchar(heart);
 	putchar('\n');
 	return (0);
