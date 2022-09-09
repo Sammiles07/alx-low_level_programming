@@ -9,8 +9,9 @@
 
 int main(void)
 {
-	char heart:
-		for  (heart = 'a'; heart <= 'z'; heart++)
+	char heart;
+
+		for (heart = 'a'; heart <= 'z'; heart++)
 			putchar(heart);
 	putchar('\n');
 	return (0);
