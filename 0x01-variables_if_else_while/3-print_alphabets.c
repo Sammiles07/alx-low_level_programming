@@ -9,7 +9,6 @@
 
 int main(void)
 {
-
 	char heart;
 
 	for (heart = 'a'; heart <= 'z'; heart++)
