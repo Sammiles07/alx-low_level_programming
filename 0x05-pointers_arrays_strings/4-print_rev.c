@@ -3,22 +3,23 @@
 
 /**
  * print_rev - prints string backwards
- * @str: string
+ * @s: string
  * Return: Always 0
  */
 
-void print_rev(char *str)
+void print_rev(char *s)
 {
 	int i;
 
 	i = 0;
-	while (*str != '\0')
+	while (s[i] != '\0')
 	{
 		i++;
 	}
+	i--;
 	while (i >= 0)
 	{
-		_putchar(*str);
+		_putchar(s[i]);
 		i--;
 	}
 	_putchar('\n');
