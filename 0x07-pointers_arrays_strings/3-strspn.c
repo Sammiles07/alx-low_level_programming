@@ -7,13 +7,13 @@
  * Return: return count
  */
 
-unsigned inr _strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	int i, j;
 	int count = 0;
 	char *str1, *str2;
 
-	str1 = 2;
+	str1 = s;
 	str2 = accept;
 
 	i = 0;
